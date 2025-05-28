@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Favorite Books Table</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>My Favorite Books</h1>
+    <table aria-describedby="book-table-desc">
+      <caption id="book-table-desc">A table listing three of my favorite books, with details on the title, author, year of publication, and genre.</caption>
+      <thead>
+        <tr>
+          <th scope="col">Book Title</th>
+          <th scope="col">Author</th>
+          <th scope="col">Year Published</th>
+          <th scope="col">Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">To Kill a Mockingbird</td>
+          <td>Harper Lee</td>
+          <td>1960</td>
+          <td>Fiction</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="notes">Pulitzer Prize winner, widely regarded as a classic of modern American literature.</td>
+        </tr>
+        <tr>
+          <td>1984</td>
+          <td>George Orwell</td>
+          <td>1949</td>
+          <td>Dystopian</td>
+        </tr>
+        <tr>
+          <td>The Great Gatsby</td>
+          <td>F. Scott Fitzgerald</td>
+          <td>1925</td>
+          <td>Tragedy</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
